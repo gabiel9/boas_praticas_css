@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.produtos {
+  max-width: 720px;
+  width: 90%;
+  margin: 58px;
+  display: grid;
+  grid-template-columns: repeat(3, 32.6%);
+  grid-column-gap: 1%;
+}
+.produtos .produto {
+  background-color: rgb(49, 122, 122);
+}
+.produtos .produto__dest-mod {
+  background-color: rgb(0, 44, 44);
+}
+.produtos .produto__imagem {
+  width: 100%;
+}
+.produtos .produto__nome {
+  margin: 8px 0;
+}
+.produtos .produto__descricao {
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=main.css.map */
